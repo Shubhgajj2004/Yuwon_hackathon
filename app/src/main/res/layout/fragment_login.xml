@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginFragments.loginFrag"
+    android:background="#F2F2F2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Existing User"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/PhoneNoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Phone No"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="12dp"
+
+        android:paddingBottom="20dp"
+        android:textColorHint="#474747" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Loginsubmitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PhoneNoLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="#FFAAB9"
+        android:clickable="true"
+        android:elevation="15dp"
+        android:src="@drawable/ic_arrow_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="103dp"
+        android:layout_marginRight="28dp"
+        android:layout_toLeftOf="@+id/PhoneNoLogin"
+        android:text="+ 91"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/warning2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Loginsubmitbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="warning"
+        android:textColor="#FF0000"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

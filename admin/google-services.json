@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "8740167817",
+    "project_id": "yuwon-medstore",
+    "storage_bucket": "yuwon-medstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8740167817:android:b8942460dca41cf91ee658",
+        "android_client_info": {
+          "package_name": "com.shubh.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8740167817-atbo901i0i6h28uht01blnm5322s8mtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDaihU_Rw4KoS-ZlBEFKgdASLdhZ9OIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8740167817-atbo901i0i6h28uht01blnm5322s8mtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

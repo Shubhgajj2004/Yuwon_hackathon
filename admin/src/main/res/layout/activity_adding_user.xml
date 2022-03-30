@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adding.Adding_user"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="245dp"
+        android:layout_height="216dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/youwon"
+        android:id="@+id/item_image"/>
+
+        <Button
+            android:id="@+id/Add_image_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_image"
+            android:layout_centerHorizontal="true"
+            android:text="Add Image" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Add_image_btn"
+            android:layout_marginTop="30dp"
+            android:hint="Name Of the Item"
+            android:id="@+id/Item_name"
+
+            android:minHeight="48dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Item_name"
+            android:layout_marginTop="30dp"
+            android:hint="Description"
+            android:id="@+id/Item_des"
+
+            android:minHeight="48dp" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Item_des"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/device"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Item_des"
+                    android:minHeight="48dp"
+                    android:text="device" />
+
+                <CheckBox
+                    android:id="@+id/beauty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/device"
+                    android:minHeight="48dp"
+                    android:text="beauty" />
+
+                <CheckBox
+                    android:id="@+id/covid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/beauty"
+                    android:minHeight="48dp"
+                    android:text="covid" />
+
+                <CheckBox
+                    android:id="@+id/genrics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/covid"
+                    android:minHeight="48dp"
+                    android:text="genrics" />
+
+                <CheckBox
+                    android:id="@+id/fitness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/genrics"
+                    android:layout_marginRight="20dp"
+                    android:minHeight="48dp"
+                    android:text="fitness" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/ointment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Item_des"
+                    android:layout_marginLeft="20dp"
+                    android:minHeight="48dp"
+                    android:text="ointment" />
+
+                <CheckBox
+                    android:id="@+id/dabur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ointment"
+                    android:layout_marginLeft="20dp"
+                    android:minHeight="48dp"
+                    android:text="dabur" />
+
+                <CheckBox
+                    android:id="@+id/himalaya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dabur"
+                    android:layout_marginLeft="20dp"
+                    android:minHeight="48dp"
+                    android:text="himalaya" />
+
+                <CheckBox
+                    android:id="@+id/mama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/himalaya"
+                    android:layout_marginLeft="20dp"
+                    android:minHeight="48dp"
+                    android:text="vicks" />
+
+                <CheckBox
+                    android:id="@+id/nivea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mama"
+                    android:layout_marginLeft="20dp"
+                    android:minHeight="48dp"
+                    android:text="Nivea" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/Item_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Stock"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/Item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Item_amount"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="MRP"
+            android:inputType="number"
+            android:minHeight="48dp" />
+         <EditText
+            android:id="@+id/Item_price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Item_price"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Effective price for sell"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+
+        <Button
+            android:id="@+id/submitItembtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Item_price2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#9C27B0"
+
+            android:text="Submit"
+            android:textColor="#FFFAFA" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/submitItembtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_check"
+            android:layout_below="@+id/submitItembtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:textColor="#1EE34F"
+            android:visibility="invisible"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

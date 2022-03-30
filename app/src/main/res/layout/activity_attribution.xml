@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.Attribution">
+
+    <TextView
+        android:id="@+id/icons_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Icons"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/icons_det"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/icons_nothing"
+        android:layout_margin="20dp"
+
+        android:background="#EDEDED"
+        android:padding="20dp"
+        android:text="Many icons and illustrations of the app is directly taken by  https://icons8.com "
+
+
+        android:autoLink="web"
+        />
+
+        <TextView
+        android:id="@+id/Ui_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• UI"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+            android:layout_below="@+id/icons_det"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/Ui_nothing"
+        android:layout_margin="20dp"
+
+        android:background="#EDEDED"
+        android:padding="20dp"
+        android:text=" UI and Many vector in .svg form is taken by https://www.figma.com/"
+
+
+        android:autoLink="web"
+        />
+
+
+
+
+</RelativeLayout>

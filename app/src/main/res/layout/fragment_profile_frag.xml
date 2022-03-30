@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard_fragments.Profile_frag">
+
+    <TextView
+        android:id="@+id/prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/aldrich"
+        android:text="Profile"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/Need_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_below="@+id/prod"
+        android:gravity="left"
+        android:padding="13dp"
+        android:text="Need help ?"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Privacy_po"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Need_help"
+        android:backgroundTint="@color/white"
+        android:gravity="left"
+        android:padding="13dp"
+        android:text="Privacy Policy"
+        android:textSize="15dp" />
+ <Button
+        android:id="@+id/Terms_and_cond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Privacy_po"
+        android:backgroundTint="@color/white"
+        android:gravity="left"
+        android:padding="13dp"
+        android:text="Terms and Conditions"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Attribution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Terms_and_cond"
+        android:backgroundTint="@color/white"
+        android:gravity="left"
+        android:padding="13dp"
+        android:text="Attributions"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:layout_below="@id/Attribution"
+        android:text="Made with ❤ by Yuwon "
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/image_recycler"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/devices" />
+
+    <TextView
+        android:id="@+id/Name_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/image_recycler"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/Amount_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name_recycler"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/image_recycler"
+        android:text="1444"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/MRP_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name_recycler"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="18dp"
+
+        android:layout_toRightOf="@+id/Amount_recycler"
+        android:text="123"
+        android:textColor="#535353"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/off_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name_recycler"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="18dp"
+
+        android:layout_toRightOf="@+id/MRP_recycler"
+        android:text="30% off"
+        android:textColor="#4CAF50"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="350dp"
+        android:layout_height="0.6dp"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="130dp"
+        android:background="@drawable/ic_line_3" />
+
+    <TextView
+        android:id="@+id/Add_to_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Amount_recycler"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/image_recycler"
+        android:background="@drawable/add_to_cart"
+        android:padding="6dp"
+        android:text="Add to cart"
+        android:textColor="#FF8399"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

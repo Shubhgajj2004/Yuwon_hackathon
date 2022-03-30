@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">admin</string>
+    <string name="Open_toggle">Open</string>
+    <string name="close_toggle">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="users">
+        <item>New user</item>
+        <item>Existing user</item>
+        <item>Private</item>
+    </string-array>
+
+</resources>

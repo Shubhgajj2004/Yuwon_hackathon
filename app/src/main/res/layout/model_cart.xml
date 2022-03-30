@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:paddingTop="2dp"
+    android:background="@color/white"
+    android:elevation="4dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/image_recycler2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/devices" />
+
+    <TextView
+        android:id="@+id/Name_recycler2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Name"
+        android:layout_marginTop="10dp"
+        android:textColor="#151515"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/Amount_recycler2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name_recycler2"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+
+        android:text="1444"
+        android:textColor="#232323"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/MRP_recycler2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name_recycler2"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/Amount_recycler2"
+        android:text="123"
+        android:textColor="#535353"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/off_recycler2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name_recycler2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/MRP_recycler2"
+        android:text="30% off"
+        android:textColor="#4CAF50"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/number2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/MRP_recycler2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/plus2"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#5C5C5C"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/plus2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/MRP_recycler2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/round_plus"
+        android:text="+"
+        android:textSize="17sp"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/minus2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/MRP_recycler2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/number2"
+        android:background="@drawable/round_plus"
+        android:text="-"
+        android:textSize="18sp" />
+
+</RelativeLayout>

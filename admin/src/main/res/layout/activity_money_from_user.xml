@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Money_fromUser">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/detail_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User detail"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:id="@+id/line_nothing1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@+id/detail_nothing"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/name_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :-"
+        android:textSize="15sp"
+        android:layout_below="@+id/line_nothing1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/user_name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_nothing1"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/name_nothing"
+        android:text="Shubh"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/contact_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact No :-"
+        android:textSize="15sp"
+        android:layout_below="@+id/name_nothing"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/user_contact_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="54dp"
+        android:layout_below="@+id/name_nothing"
+        android:layout_toRightOf="@+id/contact_nothing"
+        android:layout_marginTop="10dp"
+        android:text="9999999999"
+        android:autoLink="phone"
+        />
+
+
+    <TextView
+        android:id="@+id/city_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City :-"
+        android:textSize="15sp"
+        android:layout_below="@+id/contact_nothing"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/city_user_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/contact_nothing"
+        android:layout_toRightOf="@+id/city_nothing"
+        android:layout_marginTop="10dp"
+        android:text="Ahmedabad"
+        />
+
+    <TextView
+        android:id="@+id/address_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address :-"
+        android:textSize="15sp"
+        android:layout_below="@+id/city_nothing"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/address_user_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="76dp"
+        android:layout_below="@+id/city_nothing"
+        android:layout_toRightOf="@+id/address_nothing"
+        android:layout_marginTop="20dp"
+        android:text="288,Tarangahill Scoiety Nr arjun ashram"
+        />
+    <View
+        android:id="@+id/line_user_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@+id/address_user_detail"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/show_orderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="order Id:- "
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/line_user_detail"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/orderdetailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_below="@+id/line_user_detail"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/show_orderId"
+        android:text="-Mwtx6goIIHlM3W3AXea"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/time_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderdetailId"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Time:-"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/time_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderdetailId"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/time_nothing"
+        android:text="Sun Feb 27 12:23:15 GMT+05:30 2022"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/promo_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_nothing"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="UsedPromo:-"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/userd_promo_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_nothing"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/time_nothing"
+        android:text="Free500"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/Total_amount_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/promo_nothing"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Total Amount:-"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/Total_amount_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/promo_nothing"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/Total_amount_nothing"
+        android:text="$309"
+        android:textColor="#FF5722"
+        android:textSize="15sp"
+
+        />
+
+    <TextView
+        android:id="@+id/using_promo_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Total_amount_nothing"
+        android:layout_marginLeft="10dp"
+        android:text="Using promo  :-"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/using_promo_payable_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/using_promo_nothing"
+        android:layout_marginLeft="10dp"
+        android:text="(Payable Amount)"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/Payabale_amout_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Total_amount_nothing"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="21dp"
+            android:layout_toRightOf="@+id/Total_amount_nothing"
+            android:text="$309"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+
+            />
+
+    <TextView
+        android:id="@+id/status_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Payabale_amout_detail"
+        android:layout_marginLeft="10dp"
+        android:text="Status :-"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/Status_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Payabale_amout_detail"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/Total_amount_nothing"
+        android:text="Pending"
+        android:textColor="#FF5722"
+        android:textSize="15sp"
+
+        />
+    <View
+        android:id="@+id/line_nothing"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@+id/Status_detail"
+        android:layout_marginTop="15dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/order_detail_recylerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line_nothing"
+        android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/deliverdbtn_detail"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_detail_recylerview"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#4CAF50"
+            android:text="Delivered" />
+        <Button
+            android:layout_below="@+id/order_detail_recylerview"
+            android:id="@+id/Canceled_detail"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Canceled"
+            android:background="#FF3D3D"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "8740167817",
+    "firebase_url": "https://yuwon-medstore-default-rtdb.firebaseio.com",
+    "project_id": "yuwon-medstore",
+    "storage_bucket": "yuwon-medstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8740167817:android:7b5c3fac4ea18bc71ee658",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8740167817-66361f7nb6sum0kbcgvckftf9hqqu6ee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.application",
+            "certificate_hash": "514d501830743ac1f79ed878279a378584af1e30"
+          }
+        },
+        {
+          "client_id": "8740167817-atbo901i0i6h28uht01blnm5322s8mtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDaihU_Rw4KoS-ZlBEFKgdASLdhZ9OIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8740167817-atbo901i0i6h28uht01blnm5322s8mtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8740167817:android:b8942460dca41cf91ee658",
+        "android_client_info": {
+          "package_name": "com.shubh.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8740167817-kas5d6oqehm77cchrh0juldtf7apqrn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubh.admin",
+            "certificate_hash": "514d501830743ac1f79ed878279a378584af1e30"
+          }
+        },
+        {
+          "client_id": "8740167817-atbo901i0i6h28uht01blnm5322s8mtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDaihU_Rw4KoS-ZlBEFKgdASLdhZ9OIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8740167817-atbo901i0i6h28uht01blnm5322s8mtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8740167817:android:04044d5c6f8c7db61ee658",
+        "android_client_info": {
+          "package_name": "com.shubh.yuwonmedstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8740167817-45dfjj7evigrjon61hud8urvj5tcb3b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubh.yuwonmedstore",
+            "certificate_hash": "514d501830743ac1f79ed878279a378584af1e30"
+          }
+        },
+        {
+          "client_id": "8740167817-atbo901i0i6h28uht01blnm5322s8mtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDaihU_Rw4KoS-ZlBEFKgdASLdhZ9OIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8740167817-atbo901i0i6h28uht01blnm5322s8mtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Med_detail"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_detail"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/devices" />
+
+            <TextView
+                android:id="@+id/name_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_detail"
+                android:layout_centerHorizontal="true"
+                android:text="Cipladin"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/Info_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_detail"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Information"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/Description_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Info_detail"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Really it is very helpful Pls by once you will"
+                android:textSize="17dp" />
+
+            <View
+                android:id="@+id/one"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_below="@+id/Description_detail"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="90dp"
+
+                android:layout_toLeftOf="@+id/two"
+                android:background="@drawable/verified" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one"
+                android:layout_marginRight="50dp"
+                android:layout_toLeftOf="@+id/fast"
+                android:text="100% genuine product" />
+
+            <View
+                android:id="@+id/two"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_below="@+id/Description_detail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+
+                android:background="@drawable/delivery" />
+
+            <TextView
+                android:id="@+id/fast"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/two"
+                android:layout_centerHorizontal="true"
+                android:text="Fast delivery" />
+
+            <View
+                android:id="@+id/third"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_below="@+id/Description_detail"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/two"
+                android:background="@drawable/sanitizer2" />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one"
+                android:text="Sanitized facilities"
+                android:layout_toRightOf="@+id/fast"
+                android:layout_marginLeft="56dp"
+                android:layout_marginBottom="130dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:text="$ 230"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/off_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price"
+            android:layout_marginLeft="22dp"
+            android:text="30% off"
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/MRP_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="11dp"
+            android:layout_toRightOf="@+id/price"
+            android:text="MRP $325"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/Add_to_cart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="#FF7A92"
+            android:padding="10dp"
+            android:text="Add to cart"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/plus"
+            android:background="@drawable/round_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:text="+"
+            android:textSize="14sp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="23sp"
+          android:layout_toLeftOf="@+id/plus"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/minus"
+            android:background="@drawable/round_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+          android:layout_toLeftOf="@+id/number"
+            android:text="-"
+            android:textSize="14sp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
