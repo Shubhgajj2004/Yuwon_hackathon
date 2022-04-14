@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Diagnostic_Form">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_Diag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Check up"
+        android:textColor="#2E2E2E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/weight_diag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Diag"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/custom_input"
+        android:hint="Weight (Kg)"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/hieght_diag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weight_diag"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_input"
+            android:hint="Height (Cm)"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/RadioGrp_diag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hieght_diag"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Male"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Female"
+            android:textSize="18sp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Diagnost_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RadioGrp_diag"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/custom_input_cart"
+        android:backgroundTint="#FFAAB9"
+        android:text="Diagnost"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/Tips_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/Diagnost_dialog"
+        android:background="@drawable/round"
+        android:backgroundTint="#FDCDCD"
+        android:padding="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/fake_tips_dial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="5dp"
+            android:text="Tips :"
+            android:textColor="#FF2828"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tips_dial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fake_tips_dial"
+            android:layout_centerHorizontal="true"
+            android:text="You should "
+            android:textColor="#353535"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+
+    <View
+        android:id="@+id/line_diag_2"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+
+        android:layout_below="@+id/Tips_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/ic_line_3"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tips_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_diag_2"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+    </RelativeLayout>
+
+
+
+</ScrollView>

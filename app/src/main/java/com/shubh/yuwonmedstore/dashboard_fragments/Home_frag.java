@@ -1,10 +1,12 @@
 package com.shubh.yuwonmedstore.dashboard_fragments;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.preference.PreferenceManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.view.LayoutInflater;
@@ -22,6 +24,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.shubh.yuwonmedstore.Cart;
 import com.shubh.yuwonmedstore.Category_recyclerview_adapter;
+import com.shubh.yuwonmedstore.Diagnostic_Form;
 import com.shubh.yuwonmedstore.Items_category;
 import com.shubh.yuwonmedstore.Model_category;
 import com.shubh.yuwonmedstore.R;
@@ -209,7 +212,26 @@ FragmentHomeFragBinding binding;
         });
 
 
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+        if(preferences.getBoolean("value",false))
+        {
+            binding.speakFLoatingButton.setVisibility(View.VISIBLE);
+        }
+        else
+        {
+            binding.speakFLoatingButton.setVisibility(View.GONE);
+        }
 
+
+        // For Diagnostic
+
+        binding.DiagButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(getContext() , Diagnostic_Form.class));
+            }
+        });
 
 
 

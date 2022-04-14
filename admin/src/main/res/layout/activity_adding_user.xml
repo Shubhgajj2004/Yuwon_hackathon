@@ -98,6 +98,24 @@
                     android:minHeight="48dp"
                     android:text="fitness" />
 
+                <CheckBox
+                    android:id="@+id/weight_looser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fitness"
+                    android:layout_marginRight="20dp"
+                    android:minHeight="48dp"
+                    android:text="Weight looser" />
+                <CheckBox
+                    android:id="@+id/men"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weight_looser"
+                    android:layout_marginRight="20dp"
+                    android:minHeight="48dp"
+                    android:text="Men" />
+
+
             </LinearLayout>
 
             <LinearLayout
@@ -150,6 +168,23 @@
                     android:layout_marginLeft="20dp"
                     android:minHeight="48dp"
                     android:text="Nivea" />
+
+                <CheckBox
+                    android:id="@+id/weight_gainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nivea"
+                    android:layout_marginLeft="20dp"
+                    android:minHeight="48dp"
+                    android:text="Weight gainer" />
+                <CheckBox
+                    android:id="@+id/women"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weight_gainer"
+                    android:layout_marginLeft="20dp"
+                    android:minHeight="48dp"
+                    android:text="Women" />
 
             </LinearLayout>
 

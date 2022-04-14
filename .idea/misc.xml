@@ -31,6 +31,7 @@
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/custom_input.xml" value="0.20462962962962963" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/custom_input_cart.xml" value="0.26205128205128203" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/home.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/ic_cart.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/ic_ellipse_1.xml" value="0.2175925925925926" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/ic_ellipse_2.xml" value="0.2175925925925926" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/ic_hi_ellipse.xml" value="0.25833333333333336" />
@@ -51,6 +52,7 @@
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_detail_orders.xml" value="0.264" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_diagnostic_form.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_fragment_adapter.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_item_detail.xml" value="0.4" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_items_category.xml" value="0.2033514492753623" />
@@ -61,24 +63,25 @@
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_need_help.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_otp_and_name.xml" value="0.264" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_privacy_policy.xml" value="0.30094043887147337" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_speach_recognition.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_succesfully_checkout_splash.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_term_and_cond.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/array_for_city.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/content_item_detail.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_all__items_frag.xml" value="0.264" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_first.xml" value="0.192481884057971" />
-        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_home_frag.xml" value="0.2" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_home_frag.xml" value="0.2191780821917808" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_login.xml" value="0.2" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_order_frag.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_otp.xml" value="0.11474164133738601" />
-        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_profile_frag.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_profile_frag.xml" value="0.264" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_second.xml" value="0.192481884057971" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_signup.xml" value="0.2" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_tempfrag.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_welcome_name.xml" value="0.264" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_cart.xml" value="0.6" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_detail_order.xml" value="0.25" />
-        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_for_category.xml" value="0.264" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_for_category.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_orders.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/menu/buttom_navigation_bar.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12731481481481483" />

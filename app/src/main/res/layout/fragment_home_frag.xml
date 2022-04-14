@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -270,7 +274,34 @@
             android:layout_height="1dp"
 
             android:layout_below="@+id/advertise"
-           android:layout_centerHorizontal="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/ic_line_3" />
+
+        <Button
+            android:id="@+id/Diag_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line_5"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#FFAAB9"
+            android:padding="10dp"
+            android:text="Diagnost your self"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/line_6"
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+
+            android:layout_below="@+id/Diag_Button"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
 
             android:background="@drawable/ic_line_3" />
@@ -280,14 +311,14 @@
             android:id="@+id/res_comp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/line_5"
+            android:layout_below="@+id/line_6"
             android:layout_centerHorizontal="true"
-            android:background="@color/white"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
             android:layout_marginRight="10dp"
-            android:paddingBottom="30dp"
+            android:background="@color/white"
             android:elevation="3dp"
-            android:layout_marginTop="25dp">
+            android:paddingBottom="30dp">
 
             <TextView
                 android:id="@+id/text_Home1"
@@ -305,10 +336,10 @@
                 android:id="@+id/white1"
                 android:layout_width="81dp"
                 android:layout_height="86dp"
-                android:backgroundTint="#FAFAEE"
-                android:layout_marginLeft="60dp"
                 android:layout_below="@+id/text_Home1"
-                android:background="@drawable/ic_rectangle_3" />
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/ic_rectangle_3"
+                android:backgroundTint="#FAFAEE" />
 
             <View
                 android:id="@+id/white2"
@@ -316,9 +347,9 @@
                 android:layout_height="86dp"
                 android:layout_below="@+id/text_Home1"
                 android:layout_alignParentRight="true"
-              android:layout_marginRight="60dp"
-                android:backgroundTint="#FAF3EA"
-                android:background="@drawable/ic_rectangle_3" />
+                android:layout_marginRight="60dp"
+                android:background="@drawable/ic_rectangle_3"
+                android:backgroundTint="#FAF3EA" />
 
             <View
                 android:id="@+id/white3"
@@ -326,20 +357,20 @@
                 android:layout_height="86dp"
                 android:layout_below="@id/white1"
                 android:layout_marginLeft="60dp"
-                android:backgroundTint="#ECFBF1"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/ic_rectangle_3" />
+                android:background="@drawable/ic_rectangle_3"
+                android:backgroundTint="#ECFBF1" />
 
             <View
                 android:id="@+id/white4"
                 android:layout_width="81dp"
                 android:layout_height="86dp"
                 android:layout_below="@id/white1"
-          android:layout_alignParentRight="true"
+                android:layout_alignParentRight="true"
                 android:layout_marginTop="20dp"
-               android:layout_marginRight="60dp"
-                android:backgroundTint="#DDE2F8"
-                android:background="@drawable/ic_rectangle_3" />
+                android:layout_marginRight="60dp"
+                android:background="@drawable/ic_rectangle_3"
+                android:backgroundTint="#DDE2F8" />
 
             <View
                 android:id="@+id/vicks_nothing"
@@ -355,7 +386,7 @@
                 android:layout_width="70dp"
                 android:layout_height="60dp"
                 android:layout_below="@+id/text_Home1"
-               android:layout_alignParentRight="true"
+                android:layout_alignParentRight="true"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="65dp"
                 android:background="@drawable/ic_dabur_vector_logo" />
@@ -366,21 +397,20 @@
                 android:layout_height="69dp"
 
                 android:layout_below="@+id/white1"
-                android:layout_marginTop="32dp"
-                android:background="@drawable/ic_himalaya"
                 android:layout_marginLeft="63dp"
-                />
+                android:layout_marginTop="32dp"
+                android:background="@drawable/ic_himalaya" />
 
             <View
                 android:layout_width="50dp"
                 android:layout_height="49dp"
-                android:background="@drawable/ic_nivea"
                 android:layout_below="@+id/white2"
+                android:layout_alignParentRight="true"
                 android:layout_marginTop="40dp"
                 android:layout_marginRight="75dp"
-                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_nivea"
 
-            />
+                />
 
         </RelativeLayout>
 
@@ -404,6 +434,24 @@
         </RelativeLayout>
 
 
-    </RelativeLayout>
+        </RelativeLayout>
 
     </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/speak_FLoating_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFAAB9"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        android:elevation="10dp"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

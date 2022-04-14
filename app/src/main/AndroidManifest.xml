@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YuwonMedstore">
         <activity
+            android:name=".Diagnostic_Form"
+            android:exported="false" />
+        <activity
+            android:name=".speach_Recognition"
+            android:exported="false" />
+        <activity
             android:name=".Profile.Attribution"
             android:exported="false" />
         <activity

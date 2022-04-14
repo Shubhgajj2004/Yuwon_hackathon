@@ -1,19 +1,14 @@
-package com.shubh.yuwonmedstore.Profile;
+package com.shubh.yuwonmedstore;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-
-import com.shubh.yuwonmedstore.R;
-
-public class Need_help extends AppCompatActivity {
-
+public class speach_Recognition extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_need_help);
-
+        setContentView(R.layout.activity_speach_recognition);
     }
 }

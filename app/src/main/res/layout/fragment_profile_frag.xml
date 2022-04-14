@@ -21,12 +21,12 @@
         android:id="@+id/Need_help"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
         android:layout_below="@+id/prod"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
         android:gravity="left"
         android:padding="13dp"
         android:text="Need help ?"
-        android:layout_marginTop="30dp"
         android:textSize="15dp" />
 
     <Button
@@ -39,7 +39,8 @@
         android:padding="13dp"
         android:text="Privacy Policy"
         android:textSize="15dp" />
- <Button
+
+    <Button
         android:id="@+id/Terms_and_cond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,17 +62,52 @@
         android:text="Attributions"
         android:textSize="15dp" />
 
+    <Button
+        android:id="@+id/buttonBlind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Attribution"
+        android:backgroundTint="@color/white"
+        android:gravity="left"
+        android:padding="13dp"
+        android:text="Blind"
+        android:textSize="15dp" />
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchBlind"
+        android:layout_below="@id/Attribution"
+        android:layout_alignTop="@+id/buttonBlind"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+
         android:textSize="20sp"
-        android:layout_below="@id/Attribution"
+        android:layout_below="@id/buttonBlind"
         android:text="Made with ❤ by Yuwon "
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
+        android:id="@+id/temp1"
+        android:text="Off"
+        android:layout_below="@+id/switchBlind"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        />
 
 
 
