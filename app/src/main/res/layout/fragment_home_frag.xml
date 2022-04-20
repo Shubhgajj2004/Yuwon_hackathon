@@ -306,12 +306,39 @@
 
             android:background="@drawable/ic_line_3" />
 
+     <Button
+            android:id="@+id/Pet_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line_6"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#FFAAB9"
+            android:padding="10dp"
+            android:text="Pet care"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/line_7"
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+
+            android:layout_below="@+id/Pet_Button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/ic_line_3" />
+
 
         <RelativeLayout
             android:id="@+id/res_comp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/line_6"
+            android:layout_below="@+id/line_7"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="25dp"

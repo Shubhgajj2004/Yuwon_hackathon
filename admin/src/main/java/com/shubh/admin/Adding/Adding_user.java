@@ -39,7 +39,7 @@ public class Adding_user extends AppCompatActivity {
     Button Addimage, submit_item;
     ActivityResultLauncher<String> launcher;
     Uri result1;
-    CheckBox device, beauty, covid, generics, fitness, ointment, dabur, himalaya, vicks, nivea, w_looser, w_gainer , men , women;
+    CheckBox device, beauty, covid, generics, fitness, ointment, dabur, himalaya, vicks, nivea, w_looser, w_gainer , men , women , pet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +71,7 @@ public class Adding_user extends AppCompatActivity {
         w_looser = findViewById(R.id.weight_looser);
         men = findViewById(R.id.men);
         women = findViewById(R.id.women);
+        pet = findViewById(R.id.pet);
 
 
         launcher = registerForActivityResult(new ActivityResultContracts.GetContent(), new ActivityResultCallback<Uri>() {
@@ -227,6 +228,12 @@ public class Adding_user extends AppCompatActivity {
             arrayList.put("Female", "true");
         } else {
             arrayList.put("Female", "false");
+
+        }
+        if (pet.isChecked()) {
+            arrayList.put("Pet", "true");
+        } else {
+            arrayList.put("Pet", "false");
 
         }
 

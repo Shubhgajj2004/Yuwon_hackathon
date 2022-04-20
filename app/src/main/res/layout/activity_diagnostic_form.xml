@@ -22,20 +22,20 @@
         android:textStyle="bold" />
 
 
-    <EditText
-        android:id="@+id/weight_diag"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/text_Diag"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="15dp"
-        android:background="@drawable/custom_input"
-        android:hint="Weight (Kg)"
-        android:inputType="number"
-        android:padding="10dp"
-        android:textSize="18sp" />
+        <EditText
+            android:id="@+id/weight_diag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_Diag"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_input"
+            android:hint="Weight (Kg)"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/hieght_diag"
@@ -52,45 +52,45 @@
             android:padding="10dp"
             android:textSize="18sp" />
 
-    <RadioGroup
-        android:id="@+id/RadioGrp_diag"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/hieght_diag"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:layout_width="wrap_content"
+        <RadioGroup
+            android:id="@+id/RadioGrp_diag"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Male"
-            android:textSize="18sp" />
+            android:layout_below="@+id/hieght_diag"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <RadioButton
-            android:layout_width="wrap_content"
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Male"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Female"
+                android:textSize="18sp" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/Diagnost_dialog"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Female"
+            android:layout_below="@+id/RadioGrp_diag"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/custom_input_cart"
+            android:backgroundTint="#FFAAB9"
+            android:text="Diagnost"
             android:textSize="18sp" />
-
-
-    </RadioGroup>
-
-    <Button
-        android:id="@+id/Diagnost_dialog"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/RadioGrp_diag"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="50dp"
-        android:background="@drawable/custom_input_cart"
-        android:backgroundTint="#FFAAB9"
-        android:text="Diagnost"
-        android:textSize="18sp" />
 
     <RelativeLayout
         android:id="@+id/Tips_layout"

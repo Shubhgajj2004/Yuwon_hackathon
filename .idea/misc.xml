@@ -47,6 +47,7 @@
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/round.xml" value="0.2175925925925926" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/round_checkout.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/drawable/round_plus.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_adding_pet.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_attribution.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_cart.xml" value="0.18704710144927536" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
@@ -62,10 +63,14 @@
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_med_detail.xml" value="0.264" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_need_help.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_otp_and_name.xml" value="0.264" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_pet_care_home.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_privacy_policy.xml" value="0.30094043887147337" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_products_pet.xml" value="0.20972222222222223" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_profile_pet.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_speach_recognition.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_succesfully_checkout_splash.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_term_and_cond.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/activity_vaccination_pet.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/array_for_city.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/content_item_detail.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_all__items_frag.xml" value="0.264" />
@@ -79,10 +84,14 @@
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_signup.xml" value="0.2" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_tempfrag.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/fragment_welcome_name.xml" value="0.264" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/modal_petsprofile.xml" value="0.4" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_cart.xml" value="0.6" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_detail_order.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_for_category.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/model_orders.xml" value="0.25" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/sample_recieve.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/sample_sender.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/layout/sample_vacc_pet.xml" value="0.264" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/menu/buttom_navigation_bar.xml" value="0.25" />
         <entry key="..\:/Users/SHUBH/AndroidStudioProjects/Yuwonmedstore/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12731481481481483" />
       </map>

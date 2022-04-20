@@ -3,6 +3,7 @@
     package="com.shubh.yuwonmedstore">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YuwonMedstore">
+        <activity
+            android:name=".Vaccination_pet"
+            android:exported="false" />
+        <activity
+            android:name=".Adding_pet"
+            android:exported="false" />
+        <activity
+            android:name=".products_Pet"
+            android:exported="false" />
+        <activity
+            android:name=".profile_Pet"
+            android:exported="false" />
+        <activity
+            android:name=".petCare_home"
+            android:exported="false" />
         <activity
             android:name=".Diagnostic_Form"
             android:exported="false" />

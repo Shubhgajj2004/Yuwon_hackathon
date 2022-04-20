@@ -30,6 +30,8 @@ import com.shubh.yuwonmedstore.Model_category;
 import com.shubh.yuwonmedstore.R;
 import com.shubh.yuwonmedstore.databinding.FragmentHomeFragBinding;
 import com.shubh.yuwonmedstore.databinding.FragmentLoginBinding;
+import com.shubh.yuwonmedstore.petCare_home;
+import com.shubh.yuwonmedstore.speach_Recognition;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -222,6 +224,12 @@ FragmentHomeFragBinding binding;
             binding.speakFLoatingButton.setVisibility(View.GONE);
         }
 
+        binding.speakFLoatingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext() , speach_Recognition.class));
+            }
+        });
 
         // For Diagnostic
 
@@ -230,6 +238,13 @@ FragmentHomeFragBinding binding;
             public void onClick(View view) {
 
                 startActivity(new Intent(getContext() , Diagnostic_Form.class));
+            }
+        });
+
+        binding.PetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext() , petCare_home.class));
             }
         });
 

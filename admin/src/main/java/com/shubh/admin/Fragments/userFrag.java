@@ -40,7 +40,7 @@ public class userFrag extends Fragment {
         // Required empty public constructor
     }
     itemAdapters adapters;
-   FragmentUserBinding binding;
+    FragmentUserBinding binding;
     ArrayList<Items_modal_for_adp> list=new ArrayList<>();
     ArrayList<Items_modal_for_adp> listKey=new ArrayList<>();
     FirebaseDatabase database;

@@ -114,6 +114,14 @@
                     android:layout_marginRight="20dp"
                     android:minHeight="48dp"
                     android:text="Men" />
+                <CheckBox
+                    android:id="@+id/pet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/men"
+                    android:layout_marginRight="20dp"
+                    android:minHeight="48dp"
+                    android:text="Pet" />
 
 
             </LinearLayout>
